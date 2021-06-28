@@ -1,0 +1,27 @@
+plugins {
+  id 'java'
+  id 'application'
+}
+
+repositories {
+  mavenCentral()
+
+  // maven repository for CS stuff
+  maven {
+    url 'https://raw.githubusercontent.com/shaked113021/CSRepository/master'
+  }
+}
+
+// enable console input for run task
+run {
+  standardInput = System.in
+}
+
+dependencies {
+  // library of unit4
+  implementation 'edu.huji:unit4:1.0.0'
+}
+
+application {
+  mainClass = 'simplecsproject.Main'
+}
