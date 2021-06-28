@@ -8,7 +8,7 @@ repositories {
 
   // maven repository for CS stuff
   maven {
-    url 'https://raw.githubusercontent.com/shaked113021/CSRepository/master'
+    url 'https://raw.github.com/shaked113021/CSRepository/master'
   }
 }
 
